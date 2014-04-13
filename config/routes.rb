@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'home/index'
 
-  get 'home/about'
+  match '/about', to: "home#about", via: 'get'
 
-  get 'home/contact'
+  match '/contact', to: "home#contact", via: 'get'
 
   root 'home#index'
 
