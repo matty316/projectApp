@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  get 'home/index'
+  get 'users/new'
 
+  match '/index', to: "home#index", via: 'get'
   match '/about', to: "home#about", via: 'get'
-
   match '/contact', to: "home#contact", via: 'get'
+  match '/signup', to: "users#new", via: 'get'
 
   root 'home#index'
 
