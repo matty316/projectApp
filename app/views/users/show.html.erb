@@ -1,3 +1,17 @@
 <% provide(:title, @user.name) %>
-<h1><%= @user.name %></h1>
-<%= image_tag @user.profile_picture.url(:medium) %>
+<div class="row">
+  <div class="col-md-4">
+    <h1><%= @user.name %></h1>
+    <%= image_tag @user.profile_picture.url(:medium) %>
+    <%= render "shared/item_form" %>
+  </div>
+  <div class="col-md-8">
+    <% if @items.any? %>
+      <ul>
+        <% @items.each do |item| %>
+          <li><%= item.title %></li>
+        <% end %>
+      </ul>
+    <% end %>
+  </div>
+</div>

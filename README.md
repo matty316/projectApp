@@ -11,6 +11,8 @@ Todo
 * Categories
 * Sharing on social networks
 * Admin Users
+* Item Images
+* Make it not look ugly
 
 Done
 * Users

@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  resources :users
+  get 'items/new'
+
+  get 'items/create'
+
+  resources :users do
+    resources :items
+  end
   resources :sessions, only: [:new, :create, :destroy]
 
   match '/index', to: "home#index", via: 'get'
