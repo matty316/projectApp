@@ -1,4 +1,4 @@
-# Project for my CS class
+# Look at what I just bought! (Project for my CS class)
 
 This is a webapp for bragging about stuff you bought
 
@@ -13,6 +13,9 @@ Todo
 * Admin Users
 * Item Images
 * Make it not look ugly
+* Take picture from webcam
+* Add images to items
+* Separate homepages for new and signed in users
 
 Done
 * Users
