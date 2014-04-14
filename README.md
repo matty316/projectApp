@@ -10,6 +10,7 @@ Todo
 * Show popular items
 * Categories
 * Sharing on social networks
+* Admin Users
 
 Done
 * Users
