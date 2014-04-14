@@ -11,6 +11,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bootstrap-sass'
 gem 'sprockets'
+gem 'factory_girl_rails', '4.2.1'
 gem 'jbuilder', '~> 2.0'
 gem 'growl'
 gem 'sdoc', '~> 0.4.0',          group: :doc

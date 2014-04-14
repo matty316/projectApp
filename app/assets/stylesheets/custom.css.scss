@@ -8,3 +8,27 @@ body {
 .jumbotron, .page-title {
   text-align: center;
 }
+
+.form-group {
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* forms */
+
+#error_explanation {
+  color: #f00;
+  ul {
+    list-style: none;
+    margin: 0 0 18px 0;
+  }
+  max-width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.field_with_errors {
+  @extend .control-group;
+  @extend .error;
+}

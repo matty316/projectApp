@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/new'
+  resources :users
 
   match '/index', to: "home#index", via: 'get'
   match '/about', to: "home#about", via: 'get'
