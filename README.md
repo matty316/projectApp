@@ -13,9 +13,11 @@ Todo
 * Admin Users
 * Item Images
 * Make it not look ugly
-* Take picture from webcam
+* Take picture from webcam (maybe)
 * Add images to items
 * Separate homepages for new and signed in users
+* Direct messages (maybe)
+* Ratings
 
 Done
 * Users

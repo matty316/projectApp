@@ -7,10 +7,12 @@
       <%= render "shared/item_form" %>
     <% end %>
   </div>
+<!--   scroll this div, make the rest fixed -->
   <div class="col-md-8">
     <% if @items.any? %>
       <ul>
         <% @items.each do |item| %>
+<!--         Make Links -->
           <li><%= item.title %></li>
         <% end %>
       </ul>
