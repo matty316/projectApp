@@ -18,6 +18,8 @@ Todo
 * Separate homepages for new and signed in users
 * Direct messages (maybe)
 * Ratings
+* Welcome email, mailers and mad mimi for newsletter
+* Ajax
 
 Done
 * Users
